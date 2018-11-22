@@ -8,22 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		4D77A08621A694B80056C6A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D77A08521A694B80056C6A2 /* AppDelegate.swift */; };
-		4D77A08821A694B80056C6A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D77A08721A694B80056C6A2 /* ViewController.swift */; };
 		4D77A08B21A694B80056C6A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D77A08921A694B80056C6A2 /* Main.storyboard */; };
 		4D77A08E21A694B80056C6A2 /* YagnikPractical.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4D77A08C21A694B80056C6A2 /* YagnikPractical.xcdatamodeld */; };
 		4D77A09021A694BA0056C6A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D77A08F21A694BA0056C6A2 /* Assets.xcassets */; };
 		4D77A09321A694BA0056C6A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D77A09121A694BA0056C6A2 /* LaunchScreen.storyboard */; };
+		4D77A09C21A695250056C6A2 /* WebServiceCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D77A09B21A695250056C6A2 /* WebServiceCall.swift */; };
+		4D77A09F21A695BF0056C6A2 /* MasterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D77A09E21A695BF0056C6A2 /* MasterTableViewCell.swift */; };
+		4D77A0A421A696410056C6A2 /* MasterTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D77A0A321A696410056C6A2 /* MasterTableVC.swift */; };
+		4D77A0A621A6969A0056C6A2 /* DetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D77A0A521A6969A0056C6A2 /* DetailsVC.swift */; };
+		4D77A0A921A696EE0056C6A2 /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D77A0A821A696EE0056C6A2 /* LocationModel.swift */; };
+		4D77A0AB21A697270056C6A2 /* PinClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D77A0AA21A697270056C6A2 /* PinClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4D77A08221A694B80056C6A2 /* YagnikPractical.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YagnikPractical.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D77A08521A694B80056C6A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4D77A08721A694B80056C6A2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4D77A08A21A694B80056C6A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4D77A08D21A694B80056C6A2 /* YagnikPractical.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = YagnikPractical.xcdatamodel; sourceTree = "<group>"; };
 		4D77A08F21A694BA0056C6A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D77A09221A694BA0056C6A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D77A09421A694BA0056C6A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D77A09B21A695250056C6A2 /* WebServiceCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServiceCall.swift; sourceTree = "<group>"; };
+		4D77A09E21A695BF0056C6A2 /* MasterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterTableViewCell.swift; sourceTree = "<group>"; };
+		4D77A0A321A696410056C6A2 /* MasterTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterTableVC.swift; sourceTree = "<group>"; };
+		4D77A0A521A6969A0056C6A2 /* DetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsVC.swift; sourceTree = "<group>"; };
+		4D77A0A821A696EE0056C6A2 /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
+		4D77A0AA21A697270056C6A2 /* PinClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +66,11 @@
 		4D77A08421A694B80056C6A2 /* YagnikPractical */ = {
 			isa = PBXGroup;
 			children = (
+				4D77A0A721A696D10056C6A2 /* Models */,
+				4D77A0A021A695E10056C6A2 /* ViewControllers */,
+				4D77A09D21A695530056C6A2 /* ViewModel */,
+				4D77A09A21A694F70056C6A2 /* WebServices */,
 				4D77A08521A694B80056C6A2 /* AppDelegate.swift */,
-				4D77A08721A694B80056C6A2 /* ViewController.swift */,
 				4D77A08921A694B80056C6A2 /* Main.storyboard */,
 				4D77A08F21A694BA0056C6A2 /* Assets.xcassets */,
 				4D77A09121A694BA0056C6A2 /* LaunchScreen.storyboard */,
@@ -65,6 +78,40 @@
 				4D77A08C21A694B80056C6A2 /* YagnikPractical.xcdatamodeld */,
 			);
 			path = YagnikPractical;
+			sourceTree = "<group>";
+		};
+		4D77A09A21A694F70056C6A2 /* WebServices */ = {
+			isa = PBXGroup;
+			children = (
+				4D77A09B21A695250056C6A2 /* WebServiceCall.swift */,
+			);
+			path = WebServices;
+			sourceTree = "<group>";
+		};
+		4D77A09D21A695530056C6A2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4D77A09E21A695BF0056C6A2 /* MasterTableViewCell.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		4D77A0A021A695E10056C6A2 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4D77A0A321A696410056C6A2 /* MasterTableVC.swift */,
+				4D77A0A521A6969A0056C6A2 /* DetailsVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		4D77A0A721A696D10056C6A2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4D77A0A821A696EE0056C6A2 /* LocationModel.swift */,
+				4D77A0AA21A697270056C6A2 /* PinClass.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +185,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D77A08821A694B80056C6A2 /* ViewController.swift in Sources */,
+				4D77A0A921A696EE0056C6A2 /* LocationModel.swift in Sources */,
+				4D77A0A421A696410056C6A2 /* MasterTableVC.swift in Sources */,
 				4D77A08621A694B80056C6A2 /* AppDelegate.swift in Sources */,
+				4D77A09C21A695250056C6A2 /* WebServiceCall.swift in Sources */,
+				4D77A0A621A6969A0056C6A2 /* DetailsVC.swift in Sources */,
+				4D77A0AB21A697270056C6A2 /* PinClass.swift in Sources */,
 				4D77A08E21A694B80056C6A2 /* YagnikPractical.xcdatamodeld in Sources */,
+				4D77A09F21A695BF0056C6A2 /* MasterTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +339,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FWNRXZ6644;
 				INFOPLIST_FILE = YagnikPractical/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -304,6 +357,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FWNRXZ6644;
 				INFOPLIST_FILE = YagnikPractical/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
