@@ -16,15 +16,15 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "YagnikPractical/ViewControllers/MasterTableVC.swift"
-            timestampString = "564577092.473224"
+            timestampString = "564578147.5231971"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "107"
-            endingLineNumber = "107"
+            startingLineNumber = "106"
+            endingLineNumber = "106"
             landmarkName = "fetchDetailFromCoreData()"
             landmarkType = "7">
          </BreakpointContent>
@@ -32,11 +32,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "YagnikPractical/ViewControllers/MasterTableVC.swift"
-            timestampString = "564577092.473856"
+            timestampString = "564578147.523351"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "31"
@@ -52,12 +52,76 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "YagnikPractical/ViewControllers/MasterTableVC.swift"
-            timestampString = "564577092.474679"
+            timestampString = "564578147.5239201"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "51"
             endingLineNumber = "51"
             landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "YagnikPractical/ViewControllers/MasterTableVC.swift"
+            timestampString = "564578147.5240459"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "YagnikPractical.MasterTableVC.viewDidLoad() -&gt; ()"
+                  moduleName = "YagnikPractical"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yagniksuthar/Desktop/YagnikPractical/YagnikPractical/ViewControllers/MasterTableVC.swift"
+                  timestampString = "564578092.472104"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "5569">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Array&lt;Any&gt;) -&gt; () in YagnikPractical.MasterTableVC.viewDidLoad() -&gt; ()"
+                  moduleName = "YagnikPractical"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yagniksuthar/Desktop/YagnikPractical/YagnikPractical/ViewControllers/MasterTableVC.swift"
+                  timestampString = "564578092.476181"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "92">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "YagnikPractical/ViewControllers/MasterTableVC.swift"
+            timestampString = "564578147.524151"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "119"
+            endingLineNumber = "119"
+            landmarkName = "fetchDetailFromCoreData()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

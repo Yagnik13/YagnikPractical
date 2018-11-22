@@ -55,7 +55,6 @@ class MasterTableVC: UITableViewController {
                                     if let iConName = obj["icon"] as? String {
                                         if let vicnity = obj["vicinity"] as? String {
                                             let objLocationModel = LocationModel(name: nameObj, vicinity: vicnity, iconName: iConName, lat:  location["lat"] as! Double, lon: location["lng"] as! Double)
-                                            self.arrLocationModel.append(objLocationModel)
                                             
                                             //save value from core data
                                             self.saveInCoreData(iconName: iConName, name: nameObj, long: location["lng"] as! Double, lat: location["lat"] as! Double, vicinity: vicnity)
